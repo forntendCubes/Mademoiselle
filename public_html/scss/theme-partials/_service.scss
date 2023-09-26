@@ -23,9 +23,26 @@
     }
     .service-img{
         img{
-        width: 100%;
-        height: 100%;
+            width: 100%;
+            height: 100%;
         }
+    }
+}
+
+.service-single-section{
+    margin-top: 80px;
+    padding-top: 170px;
+    padding-bottom: 181px;
+    .single-title{
+        margin-bottom: 3.5rem;
+        font-family: $lato;
+        font-weight: $font-weight-normal;
+        font-size: 4.4rem;
+        line-height: 5rem;
+    }
+    p{
+        font-size: 1.8rem;
+        line-height: 2.6rem;
     }
 }
 
@@ -33,9 +50,9 @@
     .service-section{
         .service-item{
             .service-content{
-               font-size: 3.6rem;
-            line-height: 4.4rem; 
-            text-align: left;
+                font-size: 3.6rem;
+                line-height: 4.4rem;
+                text-align: left;
             }
         }
     }
