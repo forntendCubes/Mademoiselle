@@ -1,4 +1,6 @@
-
+.service-section-two{
+    margin-bottom: 37px !important;
+}
 .service-section{
     margin-bottom: 111px;
     .section-title{
@@ -14,6 +16,9 @@
         }
         .service-btn{
             padding: 13px 36px;
+            &:hover{
+                color: $gray-600;
+            }
         }
     }
     .service-img{

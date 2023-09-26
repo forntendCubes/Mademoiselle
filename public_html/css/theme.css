@@ -10366,7 +10366,7 @@ header .navbar-nav a {
   text-align: center;
 }
 
-header .navbar-nav a:hover, header .navbar-nav a:active {
+header .navbar-nav a:hover, header .navbar-nav a.active {
   border-bottom: 1px solid #ECD9D9;
 }
 
@@ -10384,7 +10384,7 @@ header .navbar-nav a:hover, header .navbar-nav a:active {
 
 @media (min-width: 1200px) {
   header .navbar {
-    padding: 25px 10px;
+    padding: 20px 10px;
   }
   header .navbar-nav li {
     margin-left: 72px;
@@ -10426,12 +10426,6 @@ header .navbar-nav a:hover, header .navbar-nav a:active {
 @media (min-width: 768px) {
   .lead-section .lead-title {
     letter-spacing: 2rem;
-  }
-}
-
-@media (min-width: 1200px) {
-  .lead-section {
-    margin-top: 100px;
   }
 }
 
@@ -10484,6 +10478,10 @@ header .navbar-nav a:hover, header .navbar-nav a:active {
   }
 }
 
+.service-section-two {
+  margin-bottom: 37px !important;
+}
+
 .service-section {
   margin-bottom: 111px;
 }
@@ -10505,6 +10503,10 @@ header .navbar-nav a:hover, header .navbar-nav a:active {
 
 .service-section .service-item .service-btn {
   padding: 13px 36px;
+}
+
+.service-section .service-item .service-btn:hover {
+  color: #6c757d;
 }
 
 .service-section .service-img img {
