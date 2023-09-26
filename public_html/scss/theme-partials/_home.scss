@@ -2,6 +2,10 @@
 .beauty-trends{
     margin-bottom: 50px;
     
+    .trend-item{
+        margin-bottom: 119px !important;
+    }
+    
     .beauty-article{
         padding-left: 7px;
         padding-right: 7px;
@@ -45,6 +49,6 @@
 
 @media(min-width:1200px){
     .beauty-trends{
-        margin-bottom: 100px;
+        margin-bottom: 20px;
     }
 }

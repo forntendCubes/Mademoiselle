@@ -35,3 +35,16 @@ h1, h2, h3, h4, h5, h6,
         }
     }
     
+    .beauty-trends{
+        .pagination{
+            .page-link{
+                color: $gray-900;
+                font-family: $bodoni;
+                line-height: 2.4rem;
+                &.active{
+                    font-weight: $font-weight-bold;
+                }
+                
+            }
+        }
+    }

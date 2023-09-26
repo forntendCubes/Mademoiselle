@@ -10339,6 +10339,16 @@ h1, h2, h3, h4, h5, h6,
   margin-top: 22px;
 }
 
+.beauty-trends .pagination .page-link {
+  color: #1E1E1E;
+  font-family: "Bodoni";
+  line-height: 2.4rem;
+}
+
+.beauty-trends .pagination .page-link.active {
+  font-weight: 700;
+}
+
 header .navbar-brand img {
   width: 196px;
   height: 25px;
@@ -10433,6 +10443,10 @@ header .navbar-nav a:hover, header .navbar-nav a.active {
   margin-bottom: 50px;
 }
 
+.beauty-trends .trend-item {
+  margin-bottom: 119px !important;
+}
+
 .beauty-trends .beauty-article {
   padding-left: 7px;
   padding-right: 7px;
@@ -10478,7 +10492,7 @@ header .navbar-nav a:hover, header .navbar-nav a.active {
 
 @media (min-width: 1200px) {
   .beauty-trends {
-    margin-bottom: 100px;
+    margin-bottom: 20px;
   }
 }
 
