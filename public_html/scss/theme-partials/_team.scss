@@ -1,0 +1,29 @@
+
+.team-section{
+    margin-bottom: 67px;
+    .team-content{
+    padding-top: 54px;
+    padding-bottom: 54px;
+
+    }
+    .team-member{
+     border: 1px solid $primary;
+    }
+    
+    .section-title{
+        margin-bottom: 54px;
+    }
+    .team-description{
+        padding-top: 30px;
+        .team-member-name{
+            margin-bottom: 3.5rem;
+            font-family: $lato;
+            font-weight: $font-weight-normal;
+            font-size: 3rem;
+            line-height: 2.7rem;
+        }
+        p{
+            line-height: 2.3rem;
+        }
+    }
+}

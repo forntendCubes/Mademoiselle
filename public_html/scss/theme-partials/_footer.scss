@@ -1,0 +1,21 @@
+
+footer{
+    padding-top: 46px;
+    padding-bottom: 23px;
+    .social{
+        margin-bottom: 19px;
+        a{
+            margin-right: 33px;
+            font-size: 2rem;
+            &:last-of-type{
+                margin-right: 0;
+            }
+        }
+        
+    }
+    .copyright{
+        a{
+            color: $gray-900;
+        }
+    }
+}

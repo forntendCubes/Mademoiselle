@@ -2,6 +2,12 @@ $navbar-togler-bg: $primary;
 
 header{
     
+    .navbar-brand{
+        img{
+            width: 196px;
+            height: 25px;
+        }
+    }
     .navbar-toggler{
         span{
             display: block;
@@ -9,6 +15,7 @@ header{
             height: 3px;
             margin-bottom: 5px;
             background-color: $navbar-togler-bg;
+            outline: none;
             
             &:last-of-type{
                 margin-bottom: 0;
@@ -18,12 +25,46 @@ header{
     
     .navbar-nav{
         a{
+            font-weight: $font-weight-normal;
             font-size: 1.4rem;
             line-height: 1.7rem;
             text-transform: uppercase;
-            padding: 10px;
+            padding: 20px 0;
             text-align: center;
+            
+            &:hover,
+                &:active{
+                border-bottom: 1px solid $primary;
+            }
         }
     }
 } //.header end
 
+@media(min-width: 768px){
+    header{
+        .navbar{
+        padding: 15px 10px;
+    }
+        .navbar-nav{
+            li{
+                margin-left: 30px;
+                a{
+                    padding: 15px 0;
+                }
+            }
+        }
+    }
+}
+
+@media(min-width: 1200px){
+    header{
+        .navbar{
+        padding: 25px 10px;
+    }
+        .navbar-nav{
+            li{
+                margin-left: 72px;
+            }
+        }
+    }
+}

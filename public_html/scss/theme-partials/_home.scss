@@ -1,0 +1,47 @@
+
+.beauty-trends{
+    margin-bottom: 50px;
+    
+    .beauty-article{
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+    .beauty-item{
+        margin-bottom: 80px;
+        .beauty-caption{
+            color: $gray-900;
+            padding: 22px 18px 57px;
+            bottom: -23rem;
+            left: 30px;
+            right: 30px;
+            background-color: $white;
+
+            h6{
+                font-size: 1.4rem;
+                line-height: 1.7rem;
+                letter-spacing: 1px;
+            }
+
+            p{
+                line-height: 2.4rem;
+                font-weight: $font-weight-normal;
+                height: 3*2.4rem;
+            }
+        }
+    }
+}
+
+@media(min-width:768px){
+    .beauty-trends{
+        margin-bottom: 170px;
+        .beauty-item{
+            margin-bottom: 0;
+        }
+    }
+}
+
+@media(min-width:1200px){
+    .beauty-trends{
+        margin-bottom: 100px;
+    }
+}
