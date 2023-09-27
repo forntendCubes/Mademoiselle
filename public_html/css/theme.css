@@ -10520,6 +10520,7 @@ header .navbar-nav a:hover, header .navbar-nav a.active {
 }
 
 .service-section .service-item .service-btn {
+  border-radius: 0 !important;
   padding: 13px 36px;
 }
 
@@ -10618,6 +10619,77 @@ footer .social a:last-of-type {
 
 footer .copyright a {
   color: #1E1E1E;
+}
+
+.lead-page-section {
+  background-size: cover;
+  background-position: right top;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
+  margin-top: 70px;
+}
+
+.lead-page-section .lead-content {
+  line-height: 4.5rem;
+  letter-spacing: 5px;
+  margin-bottom: 60px !important;
+}
+
+.lead-page-section .form-group {
+  margin-bottom: 1.9rem;
+}
+
+.lead-page-section .form-group .error-msg {
+  color: #dc3545;
+}
+
+.lead-page-section .form-control {
+  height: 50px;
+  padding: 0 10px;
+  background-color: rgba(37, 61, 97, 0.02);
+}
+
+.lead-page-section textarea.form-control {
+  height: 250px !important;
+}
+
+.lead-page-section .service-btn {
+  border-radius: 0 !important;
+  padding: 13px 36px;
+  background: transparent;
+}
+
+.lead-page-section .service-btn:hover {
+  color: #6c757d;
+}
+
+.lead-page-section .form-section {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.info-section {
+  padding: 63px 0;
+}
+
+.info-section p, .info-section a {
+  color: #1E1E1E;
+  margin-bottom: 15px;
+  font-size: 2.4rem;
+  line-height: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .lead-page-section {
+    background-size: 45% 100%;
+    margin-bottom: 110px;
+    margin-top: 190px;
+  }
+  .lead-page-section .form-section {
+    background: transparent;
+  }
+  .info-section {
+    margin-bottom: 63px;
+  }
 }
 
 /*# sourceMappingURL=theme.css.map */

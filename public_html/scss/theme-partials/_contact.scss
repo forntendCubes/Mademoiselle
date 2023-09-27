@@ -1,0 +1,66 @@
+ 
+.lead-page-section{
+    .lead-content{
+        line-height: 4.5rem;
+        letter-spacing: 5px;
+        margin-bottom: 60px !important;
+    }
+    .form-group{
+        margin-bottom: 1.9rem;
+        .error-msg{
+            color: $red;
+        }
+    }
+    background-size: cover;
+    background-position: right top;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    margin-top: 70px;
+    
+    .form-control{
+        height: 50px;
+        padding: 0 10px;
+        background-color: rgba(37, 61, 97, 0.02);
+        
+
+    }
+    textarea.form-control{
+        height: 250px !important;
+    }
+    .service-btn{
+            border-radius: 0 !important;
+            padding: 13px 36px;
+            background: transparent;
+            &:hover{
+                color: $gray-600;
+            }
+        }
+        .form-section{
+            background: rgba(255, 255, 255, 0.8);
+        }
+}
+
+.info-section{
+    padding: 63px 0;
+    
+    p, a{
+        color: $gray-900;
+        margin-bottom: 15px;
+        font-size: 2.4rem;
+        line-height: 2.5rem;
+    }
+}
+
+@media(min-width:768px){
+    .lead-page-section{
+        background-size: 45% 100%;
+        margin-bottom: 110px;
+        margin-top: 190px;
+        .form-section{
+            background: transparent;
+        }
+    }
+    .info-section{
+        margin-bottom: 63px;
+    }
+}

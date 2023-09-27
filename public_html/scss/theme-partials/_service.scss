@@ -15,6 +15,7 @@
             text-align: center;
         }
         .service-btn{
+            border-radius: 0 !important;
             padding: 13px 36px;
             &:hover{
                 color: $gray-600;
