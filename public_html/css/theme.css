@@ -10692,4 +10692,54 @@ footer .copyright a {
   }
 }
 
+.blog-single-section {
+  margin-top: 90px;
+  margin-bottom: 30px;
+}
+
+.blog-single-section .blog-hair {
+  font-family: "Bodoni";
+  line-height: 1.7rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.blog-single-section .blog-title {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 4.4rem;
+  line-height: 5rem;
+  margin-bottom: 2.6rem;
+}
+
+.blog-single-section .blog-content {
+  font-size: 2rem;
+  line-height: 2.8rem;
+}
+
+.blog-single-content p {
+  margin-bottom: 35px;
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  text-align: justify;
+}
+
+.blog-single-content .blog-tags .tag-title {
+  margin-bottom: 2rem;
+}
+
+.blog-single-content .blog-tags p, .blog-single-content .blog-tags a {
+  font-family: "Bodoni";
+}
+
+@media (min-width: 992px) {
+  .blog-single-section {
+    padding-top: 165px;
+    margin-bottom: 97px;
+  }
+  .blog-single-content {
+    margin-bottom: 270px;
+  }
+}
+
 /*# sourceMappingURL=theme.css.map */

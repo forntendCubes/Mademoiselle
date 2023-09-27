@@ -1,0 +1,49 @@
+
+.blog-single-section{
+    margin-top: 90px;
+    margin-bottom: 30px;
+    .blog-hair{
+        font-family: $bodoni;
+        line-height: 1.7rem;
+        font-weight: $font-weight-bold;
+        letter-spacing: 1px;
+    }
+    .blog-title{
+        font-family: $lato;
+        font-weight: $font-weight-normal;
+        font-size: 4.4rem;
+        line-height: 5rem;
+        margin-bottom: 2.6rem;
+    }
+    .blog-content{
+        font-size: 2rem;
+        line-height: 2.8rem;
+    }
+}
+
+.blog-single-content{
+    p{
+    margin-bottom: 35px;
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+    text-align: justify;
+    }
+    .blog-tags{
+        .tag-title{
+            margin-bottom: 2rem;
+        }
+        p, a{
+            font-family: $bodoni;
+        }
+    }
+}
+
+@media(min-width:992px){
+    .blog-single-section{
+        padding-top: 165px;
+        margin-bottom: 97px;
+    }
+    .blog-single-content{
+        margin-bottom: 270px;
+    }
+}
