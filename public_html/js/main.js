@@ -24,7 +24,7 @@ $(document).ready(function(){
         $(".team-members-slider").owlCarousel({
             
             loop: true,
-            autoplay: false,
+            autoplay: true,
             
             responsive: {
                 0: {
