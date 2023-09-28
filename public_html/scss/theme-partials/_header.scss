@@ -7,6 +7,8 @@ header{
             width: 196px;
             height: 25px;
         }
+        
+        
     }
     .navbar-toggler{
         span{
@@ -35,6 +37,7 @@ header{
             &:hover,
                 &.active{
                 border-bottom: 1px solid $primary;
+                padding-bottom: 14.33px;
             }
         }
     }

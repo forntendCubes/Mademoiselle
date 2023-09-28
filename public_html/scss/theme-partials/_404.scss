@@ -1,0 +1,13 @@
+
+.lead-section{
+    .lead-title{
+        margin-bottom: 32px;
+    }
+    .btn-404{
+        &:hover{
+            background: transparent;
+            color: $gray-600 !important;
+            border-color: $gray-600 !important;
+        }
+    }
+}

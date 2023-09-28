@@ -4761,7 +4761,7 @@ input[type="button"].btn-block {
 .page-link {
   position: relative;
   display: block;
-  padding: 0.5rem 0.75rem;
+  padding: 0.5rem 10px !important;
   margin-left: -1px;
   line-height: 1.25;
   color: #ECD9D9;
@@ -10378,6 +10378,7 @@ header .navbar-nav a {
 
 header .navbar-nav a:hover, header .navbar-nav a.active {
   border-bottom: 1px solid #ECD9D9;
+  padding-bottom: 14.33px;
 }
 
 @media (min-width: 768px) {
@@ -10440,7 +10441,7 @@ header .navbar-nav a:hover, header .navbar-nav a.active {
 }
 
 .beauty-trends {
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
 .beauty-trends .trend-item {
@@ -10490,8 +10491,8 @@ header .navbar-nav a:hover, header .navbar-nav a.active {
   }
 }
 
-@media (min-width: 1200px) {
-  .beauty-trends {
+@media (min-width: 992px) {
+  .beauty-blog {
     margin-bottom: 20px;
   }
 }
@@ -10647,6 +10648,7 @@ footer .copyright a {
   height: 50px;
   padding: 0 10px;
   background-color: rgba(37, 61, 97, 0.02);
+  border: none !important;
 }
 
 .lead-page-section textarea.form-control {
@@ -10788,6 +10790,16 @@ footer .copyright a {
   .about-section .about-title {
     width: 50%;
   }
+}
+
+.lead-section .lead-title {
+  margin-bottom: 32px;
+}
+
+.lead-section .btn-404:hover {
+  background: transparent;
+  color: #6c757d !important;
+  border-color: #6c757d !important;
 }
 
 /*# sourceMappingURL=theme.css.map */

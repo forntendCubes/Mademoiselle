@@ -7,7 +7,7 @@
 .page-link {
   position: relative;
   display: block;
-  padding: $pagination-padding-y $pagination-padding-x;
+  padding: $pagination-padding-y 10px !important;
   margin-left: -$pagination-border-width;
   line-height: $pagination-line-height;
   color: $pagination-color;

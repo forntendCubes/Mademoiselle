@@ -1,6 +1,6 @@
 
 .beauty-trends{
-    margin-bottom: 50px;
+    margin-bottom: 70px;
     
     .trend-item{
         margin-bottom: 119px !important;
@@ -46,9 +46,8 @@
         }
     }
 }
-
-@media(min-width:1200px){
-    .beauty-trends{
+@media(min-width:992px){
+    .beauty-blog{
         margin-bottom: 20px;
     }
 }
