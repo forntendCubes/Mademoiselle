@@ -10742,4 +10742,52 @@ footer .copyright a {
   }
 }
 
+.about-section article p {
+  font-size: 2rem;
+  line-height: 2.8rem;
+  margin-bottom: 3rem;
+}
+
+.about-section article .about-title {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 4.4rem;
+  line-height: 5rem;
+  margin-bottom: 30px;
+}
+
+.about-section form .form-control {
+  padding: 25px 20px;
+  font-style: italic;
+  margin-bottom: 43px;
+}
+
+.about-section form .fa-solid {
+  bottom: 16px;
+  right: 22px;
+  color: #495057;
+}
+
+.about-section .beauty-item {
+  margin-bottom: 100px;
+}
+
+.about-section .beauty-item .beauty-caption {
+  color: #1E1E1E;
+  padding: 22px 18px 57px;
+  bottom: -23rem;
+  left: 30px;
+  right: 30px;
+  background-color: #fff;
+}
+
+@media (min-width: 992px) {
+  .about-section {
+    margin-bottom: 143px;
+  }
+  .about-section .about-title {
+    width: 50%;
+  }
+}
+
 /*# sourceMappingURL=theme.css.map */
